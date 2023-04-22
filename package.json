@@ -1,0 +1,26 @@
+{
+  "name": "fs-update",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gelatoCode/node-fs-update.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gelatoCode/node-fs-update/issues"
+  },
+  "homepage": "https://github.com/gelatoCode/node-fs-update#readme",
+  "dependencies": {
+    "body-parse": "^0.1.0",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22"
+  }
+}
