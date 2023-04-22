@@ -7,21 +7,20 @@
     <title>Document</title>
 </head>
 <body>
-    <h2>Display a data</h2>
+    <p>Done</p>
     <table>
-        <tr>
-            <th>Name</th>
-            <th>Role</th>
-            <th>Swim Style</th>
-        </tr>
-        <% for(var i=0; i < data.length; i++) { %>
+        <th>Name</th>
+        <th>Character</th>
+        <th>Swim Style</th>
+
+        <% data.forEach((read) => { %>
             <tr>
-                <td><%= data[i].name %></td>
-                <td><%= data[i].char %></td>
-                <td><%= data[i].swim %></td>
-                <td><a href="/edit/<%= data[i].id %>">Edit</a></td>
+                <td><%= read.name %></td>
+                <td><%= read.char %></td>
+                <td><%= read.swim %></td>
+                <td><a href="/edit/<%= read.id %>">Edit</a></td>
             </tr>
-        <% } %>
+        <% }) %>
     </table>
 </body>
 </html>
